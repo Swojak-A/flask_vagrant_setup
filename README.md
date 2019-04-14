@@ -59,7 +59,7 @@ python app.py
 9. Your server should be running on: ```44.44.44.4:8000```
 
 
-## debug
+## Debug
 
 - when running ```app.py``` you encounter ```env: python\r: No such file or directory```:
 
