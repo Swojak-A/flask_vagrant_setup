@@ -1,14 +1,20 @@
 # flask_vagrant_setup
 This is a proper setup for a blank Flask app working with nginx for debug/test purposes based on Vagrant.
 
-How-to:
+## How-to:
 
 1. Clone repo into dir
+
 2. From console run:
+
 ```vagrant up```
+
 According to Vagrant file all updates, nginx + ningx settings and python essentials should be loaded automatically.
+
 3. Log into virtual machine using:
+
 ```vagrant ssh```
+
 4. Install Pipenv:
 ```sudo pip3 install pipenv```
 WARNING! Use sudo to add pipenv command to PATH.
