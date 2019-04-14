@@ -23,7 +23,7 @@ WARNING! Use sudo to add pipenv command to PATH.
 
 5. Go into src folder:
 
-```cd /vagrant/app```
+```cd /vagrant/src```
 
 6. Set up Pipenv virtual env
 
