@@ -29,12 +29,18 @@ WARNING! Use sudo to add pipenv command to PATH.
 
 ```export PIPENV_VENV_IN_PROJECT=1
 export VIRTUALENV_ALWAYS_COPY=1
-pipenv install -r path/to/requirements.txt```
+pipenv install -r path/to/requirements.txt
+```
 
 
 7. Run virtual env
-"pipenv shell"
+
+```pipenv shell```
+
 8. Run app.py
-"python app.py"
+
+```python app.py```
+
 9. Your server should be running on 
-"44.44.44.4:8000"
+
+```44.44.44.4:8000```
