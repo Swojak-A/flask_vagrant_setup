@@ -57,3 +57,16 @@ python app.py
 ```
 
 9. Your server should be running on: ```44.44.44.4:8000```
+
+
+## debug
+
+- when running ```app.py``` you encounter ```env: python\r: No such file or directory```:
+
+run ```app.py``` in vim by: 
+
+```
+sudo vim /vagrant/src/app.py
+```
+
+then administer fallowing command ```:set ff=unix``` and save and quit using ```:wq```
