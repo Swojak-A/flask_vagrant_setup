@@ -7,23 +7,31 @@ This is a proper setup for a blank Flask app working with nginx for debug/test p
 
 2. From console run:
 
-```vagrant up```
+```
+vagrant up
+```
 
 According to Vagrant file all updates, nginx + ningx settings and python essentials should be loaded automatically.
 
 3. Log into virtual machine using:
 
-```vagrant ssh```
+```
+vagrant ssh
+```
 
 4. Install Pipenv:
 
-```sudo pip3 install pipenv```
+```
+sudo pip3 install pipenv
+```
 
 WARNING! Use sudo to add pipenv command to PATH.
 
 5. Go into src folder:
 
-```cd /vagrant/src```
+```
+cd /vagrant/src
+```
 
 6. Set up Pipenv virtual env
 
@@ -38,12 +46,14 @@ pipenv install -r requirements.txt
 
 7. Run virtual env
 
-```pipenv shell```
+```
+pipenv shell
+```
 
 8. Run app.py
 
-```python app.py```
+```
+python app.py
+```
 
-9. Your server should be running on 
-
-```44.44.44.4:8000```
+9. Your server should be running on: ```44.44.44.4:8000```
