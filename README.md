@@ -16,14 +16,22 @@ According to Vagrant file all updates, nginx + ningx settings and python essenti
 ```vagrant ssh```
 
 4. Install Pipenv:
+
 ```sudo pip3 install pipenv```
+
 WARNING! Use sudo to add pipenv command to PATH.
+
 5. Go into src folder:
+
 ```cd /vagrant/app```
+
 6. Set up Pipenv virtual env
-export PIPENV_VENV_IN_PROJECT=1
+
+```export PIPENV_VENV_IN_PROJECT=1
 export VIRTUALENV_ALWAYS_COPY=1
-pipenv install -r path/to/requirements.txt
+pipenv install -r path/to/requirements.txt```
+
+
 7. Run virtual env
 "pipenv shell"
 8. Run app.py
