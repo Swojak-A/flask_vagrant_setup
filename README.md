@@ -61,7 +61,7 @@ python app.py
 
 ## Debug
 
-- when running ```app.py``` you encounter ```env: python\r: No such file or directory```:
+- when while running ```app.py``` you encounter error: ```env: python\r: No such file or directory```:
 
 run ```app.py``` in vim by: 
 
