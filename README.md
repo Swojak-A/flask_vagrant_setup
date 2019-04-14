@@ -27,7 +27,8 @@ WARNING! Use sudo to add pipenv command to PATH.
 
 6. Set up Pipenv virtual env
 
-```export PIPENV_VENV_IN_PROJECT=1
+```
+export PIPENV_VENV_IN_PROJECT=1
 export VIRTUALENV_ALWAYS_COPY=1
 pipenv install -r path/to/requirements.txt
 ```
