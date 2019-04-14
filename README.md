@@ -5,7 +5,7 @@ How-to:
 
 1. Clone repo into dir
 2. From console run:
-'''vagrant up'''
+"""vagrant up"""
 According to Vagrant file all updates, nginx + ningx settings and python essentials should be loaded automatically.
 3. Log into virtual machine using:
 '''vagrant ssh'''
