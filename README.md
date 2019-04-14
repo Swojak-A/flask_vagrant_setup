@@ -32,8 +32,8 @@ export PIPENV_VENV_IN_PROJECT=1
 export VIRTUALENV_ALWAYS_COPY=1
 pipenv install -r requirements.txt
 ```
-PIPENV_VENV_IN_PROJECT is self-explainatory
-VIRTUALENV_ALWAYS_COPY prevents this error originated in Vagrant build for Win 10:
+- PIPENV_VENV_IN_PROJECT is self-explainatory
+- VIRTUALENV_ALWAYS_COPY prevents this error originated in Vagrant build for Win 10:
 
 ```OSError: [Errno 71] Protocol error: '/usr/lib/python3.6/config-3```
 
