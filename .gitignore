@@ -1,0 +1,12 @@
+#vagrant based files
+.vagrant/
+
+#venv
+src/.venv/
+
+#Pipfiles
+src/Pipfile
+src/Pipfile.lock
+
+
+
