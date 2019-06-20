@@ -2,11 +2,11 @@
 .vagrant/
 
 #venv
-src/.venv/
+app/.venv/
 
 #Pipfiles
-src/Pipfile
-src/Pipfile.lock
+app/Pipfile
+app/Pipfile.lock
 
 
 
