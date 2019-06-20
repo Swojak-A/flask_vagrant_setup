@@ -29,12 +29,12 @@ Vagrant.configure("2") do |config|
 
     sudo apt install -y python3-pip python3-dev build-essential libssl-dev
 
-    # sudo pip3 install pipenv
+    sudo pip3 install pipenv
 
     # cd /vagrant/app
-    # export PIPENV_VENV_IN_PROJECT=1
-    # export VIRTUALENV_ALWAYS_COPY=1
-    # pipenv install
+    export PIPENV_VENV_IN_PROJECT=1
+    export VIRTUALENV_ALWAYS_COPY=1
+    cd /vagrant/app && pipenv install 
 
 
     echo "xxxXXXxxx Done installing your virtual machine! xxxXXXxxx"
